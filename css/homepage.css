@@ -1,0 +1,268 @@
+a {
+  color: #1565C0;
+}
+body{
+    margin-top: 75px;
+    font-family: 'shreelipi', sans-serif;
+}
+.dynamic-page{
+    min-height: 75vh;
+    color: #222;
+}
+.banner{
+    padding-top: 60px;
+}
+.small-note{
+    background: rgba(153, 204, 255, 0.1);
+    font-size: 22px;
+}
+.banner .small-note{
+    font-family: 'shreelipi';
+    font-size: 22px;
+    /*font-style: italic;*/
+    line-height: 1.5em;
+    background: rgba(153, 204, 255, 0.1);
+}
+.banner .head{
+    font-size: 24px;
+    font-style: normal; 
+    color: #483D8B;
+    padding-bottom: 10px;
+}
+.banner h3{
+    font-size: 22px;
+    line-height: 30px;
+    color: #0C1D67;
+}
+.banner .cover img{
+    height: 425px;
+    margin-bottom: 10px;
+}
+.banner h3 small{
+    font-family: 'shreelipi';
+    font-size: 16px;
+    line-height: 30px;
+}
+.booksCollection a:HOVER{
+    text-decoration: none;
+    opacity: .8;
+}
+.bookinfo{
+    padding: 20px 20px 0px 20px;
+    border-bottom: 1px solid rgba(220, 220, 220, 0.8);
+    font-size: 22px;
+    line-height: 42px;
+}
+.bookinfo .cover{
+    width: 230px;
+    float: left;
+    border-radius: 8px;
+    margin: 5px 25px 30px 0px;
+}
+.bookinfo .title{
+    font-size: 24px;
+    color: #0C1D67;
+}
+.bookinfo .edition{
+    font-size: 22px;
+    color: #0C1D67;
+}
+.bookinfo .price{
+    color: green;
+    font-size: 18px;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+.bookinfo .description{
+    margin-top: 0px;
+    line-height: 28px;
+    text-align: justify;
+}
+.bookinfo img{
+    padding: 5px;
+    border: none;
+    box-shadow: 0 1px 15px rgba(0,0,0,0.5);
+}
+.bookinfo .googleBooks a:HOVER{
+    text-decoration: none;
+}
+.bookinfo .googleBooks img{
+    border: none;
+    box-shadow: none;
+    width: 40px;
+}
+.booksCollection img{
+    padding: 8px;
+    margin: auto;
+    height: 250px;
+    box-shadow: 0 1px 15px rgba(0,0,0,0.5);
+}
+.booksCollection .title{
+    color: #000;
+    text-align: center;
+    font-size: 22px;
+    color: #0C1D67;
+    margin: 10px;
+}
+.blockquote{
+    background-color: #FFE4E4;
+    font-weight: bold;
+    border-radius: 100px;
+    padding: 15px 0px;
+}
+.toc li{
+    padding-bottom: 5px;
+}
+.copyright{
+    padding-top: 5px;
+}
+.copyright dl {
+    font-size: 14px;
+    margin-left: 40px;
+}
+.dynamic-page .title{
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #292A3E;
+}
+.about{
+    font-size: 22px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+.about p:not(:last-child){
+    text-indent: 5%;
+    margin-bottom: 20px;
+}
+.about .no-indent{
+    text-indent: 0px !important;
+}
+.about .img-thumbnail{
+    height: 375px;
+    margin: 10px 25px 10px 25px;
+    display: inline-block;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+h4, h2{
+    color: #0C1D67;
+}
+.video-intro{
+    font-size: 22px;
+    line-height: 32px;
+}
+.delimeter{
+    text-align: center;
+    letter-spacing: 15px;
+    color: #0C1D67;
+    padding-bottom: 22px;
+}
+.footer {
+    margin-top: 50px;
+}
+.eng{
+    font-family: sans-serif !important;
+}
+@media(min-width:768px) {
+    .flat-page, .dynamic-page{
+        margin-top: 80px;
+    }
+    .banner .overlay {
+        padding: 40px;
+        border-radius: 10px;
+    }
+    .banner h1{
+        font-size: 48px;
+        line-height: 64px;
+    }
+    .banner h1 small{
+        font-size: 32px;
+    }
+    .banner input.bigSearch {
+        font-size: 24px;
+        width: 60%;
+        padding: 12px;
+        margin: 16px 0;
+    }
+    .prelims p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .prelims p{
+        margin: 20px 0;
+    }
+    .dedication h2, .author h2{
+        text-align: left;
+    }
+    .about-tabs.nav-tabs .nav-link.active,
+    .about-tabs.nav-tabs .nav-link:focus,
+    .about-tabs.nav-tabs .nav-link:hover {
+        border-bottom: 1px solid #ddd;
+    }
+    .about-content .tab-pane .prelims{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .word-of-the-day h2 span{
+        display: inline;
+    }
+    .word-of-the-day h2 span:first-of-type:after{
+        display: inline;
+        content: ' | ';
+    }
+}
+
+/*Scroll down*/
+
+a.scrollMore {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+  cursor: pointer;
+}
+a.scrollMore:hover {
+  opacity: .5;
+}
+
+a.scrollMore {
+  padding-top: 70px;
+}
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}

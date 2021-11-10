@@ -2245,6 +2245,9 @@ body.mobile-nav-active #mobile-nav-toggle {
       margin-bottom: 30px; } }
   .work-area .section-title {
     margin-bottom: 0; }
+    .work-area .title{
+      font-size: 10px;
+    }
   .work-area .filters {
     text-align: center; }
     @media (max-width: 991px) {

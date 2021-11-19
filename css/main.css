@@ -459,7 +459,9 @@ td, th {
   padding: 75px 0; }
 
 .text-center {
-  text-align: center; }
+  text-align: center;
+  color: black;
+   }
 
 .text-left {
   text-align: left; }
@@ -2286,6 +2288,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   .work-area .filters-content img {
     border-radius: 10px;
     width: 100%; }
+    .work-area{
+       margin-right: 0;
+      margin-bottom: 15px;
+    }
 
 .single-work {
   border-radius: 5px;

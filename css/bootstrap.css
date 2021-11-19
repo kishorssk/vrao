@@ -4593,7 +4593,7 @@ input[type=submit].btn-block {
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
-    min-width: 0;
+    min-width: 10px;
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;

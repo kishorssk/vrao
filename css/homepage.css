@@ -6,6 +6,253 @@ body{
     font-family: 'shreelipi', sans-serif;
     max-height: 100%;
 }
+.english{
+  font-family: 'Roboto', sans-serif;
+}
+.sanskrit{
+  font-family: 'Halant', sans-serif;
+  font-size: 16px;
+}
+a {
+  color: #1565C0;
+}
+.flat-page, .dynamic-page{
+    margin-top: 80px;
+    color: #222;
+}
+.booksCollection{
+    padding: 10px;
+    text-align: center;
+}
+.booksCollection img{
+    padding: 8px;
+    height: 400px;
+    box-shadow: 0 1px 15px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+.toc li{
+    padding-bottom: 5px;
+}
+.copyright{
+    padding-top: 5px;
+}
+.copyright dl {
+    font-size: 14px;
+    margin-left: 40px;
+}
+.dedication h2, .author h2{
+    text-align: center;
+}
+.dedication .verse{
+    font-size: 24px;
+    line-height: 40px;
+    color: #D50000;
+}
+.blessing p{
+    color: #D50000;
+}
+.blessing img{
+    margin-bottom: 20px;
+}
+.padding-zero{
+  padding: 0px;
+}
+.card-body{
+  color: 
+}
+/*.small-bio{
+  background-color: #F0F0F0;
+  margin-top: 25px;
+  padding: 20px;
+  line-height: 1.5em;
+  text-align: justify;
+  font-size: 20px;
+}
+.small-bio img{
+  margin: 10px;
+  width: 330px;
+}
+.bio h2, .bio h4{
+  color: #000000;
+  margin-top: 130px;
+}*/
+#viewimages img{
+  cursor: pointer;
+}
+/*.bio, .feedback{
+  padding: 10px;
+  line-height: 1.5em;
+  text-align: justify;
+  font-size: 20px; 
+}
+*/.contact{
+  background-color: #D3D3D3;
+  margin-top: 25px;
+  padding: 20px;
+  line-height: 1.5em;
+  text-align: justify;
+  font-size: 20px;
+}
+.en{
+  font-family: 'Courgette', cursive;
+  font-size: 17px;
+}
+.awards{
+  background-color: #ffefb6;
+  margin-top: 25px;
+  padding: 20px;
+  line-height: 1.5em;
+  text-align: justify;
+  font-size: 20px;
+}
+.awards img{
+  height: 300px;
+  margin: 20px auto 20px auto;
+  text-align: center;
+}
+.paperClippings{
+  background-color: #DAE4FD;
+  margin-top: 25px;
+  padding: 20px;
+  line-height: 1.5em;
+  text-align: justify;
+  font-size: 20px;
+}
+.paperClippings img{
+  height: 300px;
+  margin: 20px auto 20px auto;
+  text-align: center;
+}
+.subtitle{
+  color: #D50000;
+}
+.subtitle h4{
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+.card-title {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #0056b3;
+}
+.card-title, a:link {
+  text-decoration: none;
+}
+.kruthigalu img{
+  box-shadow: 0 1px 15px rgba(0,0,0,0.5);
+  border-radius: 5px;
+}
+/*.gallery figure{
+  margin: 10px;
+}
+.gallery figcaption{
+  font-size: 17px;
+}*/
+
+.right{
+  float: right;
+}
+
+@media(min-width:768px) {
+    .flat-page, .dynamic-page{
+        margin-top: 90px;
+    }
+    .dedication h2, .author h2{
+        text-align: left;
+    }
+    .about-tabs.nav-tabs .nav-link.active,
+    .about-tabs.nav-tabs .nav-link:focus,
+    .about-tabs.nav-tabs .nav-link:hover {
+        /*border-bottom: 1px solid #ddd;*/
+    }
+    .about-content .tab-pane .prelims{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .booksCollection img{
+        padding: 5px;
+        height: 300px;
+        box-shadow: 0 1px 15px rgba(0,0,0,0.5);
+    }
+    .card-title {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .awards img{
+      margin: 0px;
+      height: 220px;
+    }
+    .paperClippings img{
+      margin: 0px;
+      height: 220px;
+    }
+}
+
+
+.card-columns {
+  @include media-breakpoint-only(md) {
+    column-count: 4 !important;
+  }  
+  @include media-breakpoint-only(lg) {
+    column-count: 4 !important;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+/*Scroll down*/
+
+a.scrollMore {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+  cursor: pointer;
+}
+a.scrollMore:hover {
+  opacity: .5;
+}
+
+a.scrollMore {
+  padding-top: 70px;
+}
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
 .dynamic-page{
     min-height: 75vh;
     color: #222;

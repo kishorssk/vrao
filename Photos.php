@@ -70,7 +70,7 @@
 
     .mySlides {
       display: none;
-      width: 50%;
+      width: 40%;
       align-content: center;
     }
 

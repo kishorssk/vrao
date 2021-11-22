@@ -208,6 +208,7 @@
 			<div class="row align-items-center d-flex">
 				<div id="logo">
 					<a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+					<!-- <small>ವೇ|ಬ್ರಂ|ಶ್ರೀ</small> -->
 					<strong style="color: red">ಬಿ. ವೆಂಕಟರಾಮ ಶರ್ಮಾ</strong>
 				</div>
 				<nav id="nav-menu-container">

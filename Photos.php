@@ -233,7 +233,7 @@
 			</div>
 		</header><br /><br /><br /><br />
 		<br /><br />
-		<img src="http://localhost/vrao/img/main/001.jpg" />
+		<img src="img/main/001.jpg" />
 		<div class="container gallery">
 
 			<div class="row justify-content-center" id="viewimages">

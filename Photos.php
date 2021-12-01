@@ -233,283 +233,283 @@
 			</div>
 		</header><br /><br /><br /><br />
 		<br /><br />
-		<img src="img/main/001.jpg" />
+		<!-- <img src="img/main/001.jpg" /> -->
 		<div class="container gallery">
 
-			<div class="row justify-content-center" id="viewimages">
+      <div class="row justify-content-center" id="viewimages">
 
-				<div class="col-md-12 text-center bio"><h2>ಚಿತ್ರಗಳು</h2></div>
-				<div class="card-columns align-self-stretch">
+        <div class="col-md-12 text-center bio"><h2>ಚಿತ್ರಗಳು</h2></div>
+        <div class="card-columns align-self-stretch">
 
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/001.jpg" src="http://localhost/vrao/img/thumbs/001.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/002.jpg" src="http://localhost/vrao/img/thumbs/002.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/003.jpg" src="http://localhost/vrao/img/thumbs/003.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/004.jpg" src="http://localhost/vrao/img/thumbs/004.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/005.jpg" src="http://localhost/vrao/img/thumbs/005.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/006.jpg" src="http://localhost/vrao/img/thumbs/006.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/007.jpg" src="http://localhost/vrao/img/thumbs/007.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/008.jpg" src="http://localhost/vrao/img/thumbs/008.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/009.jpg" src="http://localhost/vrao/img/thumbs/009.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/010.jpg" src="http://localhost/vrao/img/thumbs/010.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/011.jpg" src="http://localhost/vrao/img/thumbs/011.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/012.jpg" src="http://localhost/vrao/img/thumbs/012.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/013.jpg" src="http://localhost/vrao/img/thumbs/013.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/014.jpg" src="http://localhost/vrao/img/thumbs/014.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/015.jpg" src="http://localhost/vrao/img/thumbs/015.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/016.jpg" src="http://localhost/vrao/img/thumbs/016.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/017.jpg" src="http://localhost/vrao/img/thumbs/017.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/018.jpg" src="http://localhost/vrao/img/thumbs/018.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/019.jpg" src="http://localhost/vrao/img/thumbs/019.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/020.jpg" src="http://localhost/vrao/img/thumbs/020.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/021.jpg" src="http://localhost/vrao/img/thumbs/021.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/022.jpg" src="http://localhost/vrao/img/thumbs/022.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/023.jpg" src="http://localhost/vrao/img/thumbs/023.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/024.jpg" src="http://localhost/vrao/img/thumbs/024.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/025.jpg" src="http://localhost/vrao/img/thumbs/025.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/026.jpg" src="http://localhost/vrao/img/thumbs/026.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/027.jpg" src="http://localhost/vrao/img/thumbs/027.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/028.jpg" src="http://localhost/vrao/img/thumbs/028.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/029.jpg" src="http://localhost/vrao/img/thumbs/029.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/030.jpg" src="http://localhost/vrao/img/thumbs/030.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/031.jpg" src="http://localhost/vrao/img/thumbs/031.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/032.jpg" src="http://localhost/vrao/img/thumbs/032.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/033.jpg" src="http://localhost/vrao/img/thumbs/033.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/034.jpg" src="http://localhost/vrao/img/thumbs/034.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/035.jpg" src="http://localhost/vrao/img/thumbs/035.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/036.jpg" src="http://localhost/vrao/img/thumbs/036.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/037.jpg" src="http://localhost/vrao/img/thumbs/037.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/038.jpg" src="http://localhost/vrao/img/thumbs/038.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/039.jpg" src="http://localhost/vrao/img/thumbs/039.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/040.jpg" src="http://localhost/vrao/img/thumbs/040.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/041.jpg" src="http://localhost/vrao/img/thumbs/041.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/042.jpg" src="http://localhost/vrao/img/thumbs/042.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/043.jpg" src="http://localhost/vrao/img/thumbs/043.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/044.jpg" src="http://localhost/vrao/img/thumbs/044.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/045.jpg" src="http://localhost/vrao/img/thumbs/045.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/046.jpg" src="http://localhost/vrao/img/thumbs/046.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/047.jpg" src="http://localhost/vrao/img/thumbs/047.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/048.jpg" src="http://localhost/vrao/img/thumbs/048.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/049.jpg" src="http://localhost/vrao/img/thumbs/049.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/050.jpg" src="http://localhost/vrao/img/thumbs/050.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/051.jpg" src="http://localhost/vrao/img/thumbs/051.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/052.jpg" src="http://localhost/vrao/img/thumbs/052.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/053.jpg" src="http://localhost/vrao/img/thumbs/053.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/054.jpg" src="http://localhost/vrao/img/thumbs/054.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/055.jpg" src="http://localhost/vrao/img/thumbs/055.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/056.jpg" src="http://localhost/vrao/img/thumbs/056.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/057.jpg" src="http://localhost/vrao/img/thumbs/057.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/058.jpg" src="http://localhost/vrao/img/thumbs/058.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/059.jpg" src="http://localhost/vrao/img/thumbs/059.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/060.jpg" src="http://localhost/vrao/img/thumbs/060.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/061.jpg" src="http://localhost/vrao/img/thumbs/061.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/062.jpg" src="http://localhost/vrao/img/thumbs/062.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/063.jpg" src="http://localhost/vrao/img/thumbs/063.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/064.jpg" src="http://localhost/vrao/img/thumbs/064.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/065.jpg" src="http://localhost/vrao/img/thumbs/065.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/066.jpg" src="http://localhost/vrao/img/thumbs/066.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/067.jpg" src="http://localhost/vrao/img/thumbs/067.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/068.jpg" src="http://localhost/vrao/img/thumbs/068.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/069.jpg" src="http://localhost/vrao/img/thumbs/069.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/070.jpg" src="http://localhost/vrao/img/thumbs/070.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/071.jpg" src="http://localhost/vrao/img/thumbs/071.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/072.jpg" src="http://localhost/vrao/img/thumbs/072.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/073.jpg" src="http://localhost/vrao/img/thumbs/073.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/074.jpg" src="http://localhost/vrao/img/thumbs/074.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/075.jpg" src="http://localhost/vrao/img/thumbs/075.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/076.jpg" src="http://localhost/vrao/img/thumbs/076.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/077.jpg" src="http://localhost/vrao/img/thumbs/077.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/078.jpg" src="http://localhost/vrao/img/thumbs/078.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/079.jpg" src="http://localhost/vrao/img/thumbs/079.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/080.jpg" src="http://localhost/vrao/img/thumbs/080.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/081.jpg" src="http://localhost/vrao/img/thumbs/081.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/082.jpg" src="http://localhost/vrao/img/thumbs/082.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/083.jpg" src="http://localhost/vrao/img/thumbs/083.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/084.jpg" src="http://localhost/vrao/img/thumbs/084.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/085.jpg" src="http://localhost/vrao/img/thumbs/085.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/086.jpg" src="http://localhost/vrao/img/thumbs/086.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/087.jpg" src="http://localhost/vrao/img/thumbs/087.jpg" alt="" />
-					</div>
-					<div class="fixOverlayDiv">
-						<img class="img-responsive" data-original="http://localhost/vrao/img/main/088.jpg" src="http://localhost/vrao/img/thumbs/088.jpg" alt="" />
-					</div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/001.jpg" src="img/thumbs/001.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/002.jpg" src="img/thumbs/002.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/003.jpg" src="img/thumbs/003.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/004.jpg" src="img/thumbs/004.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/005.jpg" src="img/thumbs/005.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/006.jpg" src="img/thumbs/006.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/007.jpg" src="img/thumbs/007.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/008.jpg" src="img/thumbs/008.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/009.jpg" src="img/thumbs/009.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/010.jpg" src="img/thumbs/010.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/011.jpg" src="img/thumbs/011.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/012.jpg" src="img/thumbs/012.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/013.jpg" src="img/thumbs/013.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/014.jpg" src="img/thumbs/014.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/015.jpg" src="img/thumbs/015.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/016.jpg" src="img/thumbs/016.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/017.jpg" src="img/thumbs/017.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/018.jpg" src="img/thumbs/018.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/019.jpg" src="img/thumbs/019.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/020.jpg" src="img/thumbs/020.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/021.jpg" src="img/thumbs/021.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/022.jpg" src="img/thumbs/022.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/023.jpg" src="img/thumbs/023.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/024.jpg" src="img/thumbs/024.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/025.jpg" src="img/thumbs/025.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/026.jpg" src="img/thumbs/026.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/027.jpg" src="img/thumbs/027.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/028.jpg" src="img/thumbs/028.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/029.jpg" src="img/thumbs/029.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/030.jpg" src="img/thumbs/030.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/031.jpg" src="img/thumbs/031.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/032.jpg" src="img/thumbs/032.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/033.jpg" src="img/thumbs/033.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/034.jpg" src="img/thumbs/034.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/035.jpg" src="img/thumbs/035.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/036.jpg" src="img/thumbs/036.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/037.jpg" src="img/thumbs/037.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/038.jpg" src="img/thumbs/038.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/039.jpg" src="img/thumbs/039.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/040.jpg" src="img/thumbs/040.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/041.jpg" src="img/thumbs/041.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/042.jpg" src="img/thumbs/042.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/043.jpg" src="img/thumbs/043.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/044.jpg" src="img/thumbs/044.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/045.jpg" src="img/thumbs/045.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/046.jpg" src="img/thumbs/046.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/047.jpg" src="img/thumbs/047.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/048.jpg" src="img/thumbs/048.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/049.jpg" src="img/thumbs/049.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/050.jpg" src="img/thumbs/050.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/051.jpg" src="img/thumbs/051.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/052.jpg" src="img/thumbs/052.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/053.jpg" src="img/thumbs/053.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/054.jpg" src="img/thumbs/054.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/055.jpg" src="img/thumbs/055.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/056.jpg" src="img/thumbs/056.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/057.jpg" src="img/thumbs/057.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/058.jpg" src="img/thumbs/058.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/059.jpg" src="img/thumbs/059.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/060.jpg" src="img/thumbs/060.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/061.jpg" src="img/thumbs/061.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/062.jpg" src="img/thumbs/062.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/063.jpg" src="img/thumbs/063.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/064.jpg" src="img/thumbs/064.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/065.jpg" src="img/thumbs/065.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/066.jpg" src="img/thumbs/066.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/067.jpg" src="img/thumbs/067.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/068.jpg" src="img/thumbs/068.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/069.jpg" src="img/thumbs/069.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/070.jpg" src="img/thumbs/070.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/071.jpg" src="img/thumbs/071.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/072.jpg" src="img/thumbs/072.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/073.jpg" src="img/thumbs/073.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/074.jpg" src="img/thumbs/074.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/075.jpg" src="img/thumbs/075.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/076.jpg" src="img/thumbs/076.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/077.jpg" src="img/thumbs/077.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/078.jpg" src="img/thumbs/078.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/079.jpg" src="img/thumbs/079.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/080.jpg" src="img/thumbs/080.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/081.jpg" src="img/thumbs/081.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/082.jpg" src="img/thumbs/082.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/083.jpg" src="img/thumbs/083.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/084.jpg" src="img/thumbs/084.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/085.jpg" src="img/thumbs/085.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/086.jpg" src="img/thumbs/086.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/087.jpg" src="img/thumbs/087.jpg" alt="" />
+          </div>
+          <div class="fixOverlayDiv">
+            <img class="img-responsive" data-original="img/main/088.jpg" src="img/thumbs/088.jpg" alt="" />
+          </div>
 
 
-				</div>	
-			</div>
-		</div>	
+        </div>  
+      </div>
+    </div>   
 
 	<!-- <div class="container gallery">																		
 		<div class="row justify-content-center" id="viewimages">

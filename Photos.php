@@ -72,8 +72,14 @@
       display: none;
       width: 40%;
       align-content: center;
+      position: absolute;
+      top : 5%;
+      bottom: 20%;
     }
-
+    /*.mySlides > img {
+    	width: 40%;
+    	height: 200%;
+    }*/
     .cursor {
       cursor: pointer;
     }
@@ -112,17 +118,17 @@
     }*/
 
     /* Number text (1/3 etc) */
-    .numbertext {
+    /*.numbertext {
       color: #f2f2f2;
       font-size: 12px;
       padding: 8px 12px;
       position: absolute;
       top: 0;
-    }
+    }*/
 
-    img {
+   /* img {
       margin-bottom: -4px;
-    }
+	    }*/
 
     .caption-container {
       text-align: center;

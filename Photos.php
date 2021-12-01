@@ -234,9 +234,12 @@
 	</header>
 	
 	<div class="container gallery">																		
-		<div class="row justify-content-center" id="viewimage">
+		<div class="row justify-content-center" id="viewimages">
 			<div class="column col-md-12 text-center bio"><u><h1>ಚಿತ್ರಗಳು</h1></u></div>
 			<div class="card-columns align-self-stretch">
+				<!-- <div class="fixOverlayDiv">
+					<img class="img-responsive" data-original="<?=IMAGE_URL?>gallery/main/001.jpg" src="<?=IMAGE_URL?>gallery/thumbs/001.jpg" alt="" />
+				</div> -->
 				<div class="fixOverlayDiv">
 					<img  class="hover-shadow cursor" src="http://localhost/vrao/img/thumbs/001.jpg" onclick="openModal();currentSlide(1)" alt="" />
 				</div>

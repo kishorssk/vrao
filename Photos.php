@@ -10,9 +10,15 @@
 		* {
 			box-sizing: border-box;
 		}
-
+		div.a {
+			  text-align: center;
+			  margin-top: 50px;
+		}
 		.row > .column {
 			padding: 0 8px;
+		}
+		.align{
+			text-align: center;
 		}
 
 		.row:after {
@@ -207,9 +213,16 @@
 			</div>
 		</div>
 	</header>
-	<div class="container gallery">
+	<!-- <div class="container gallery"> -->
 		<div class="row justify-content-center" id="viewimages">
-			<div class="column col-md-12 text-center bio"><u><h1>ಚಿತ್ರಗಳು</h1></u></div>
+			<!-- <div class="column col-md-12 text-center bio"><u><h1>ಚಿತ್ರಗಳು</h1></u></div> -->
+				<div class="container section-gap-top">
+					<!-- <div class="row align-items-center"> -->
+					<div class="a">
+						<h1>ಚಿತ್ರಗಳು</h1>		
+					</div>
+				</div>	
+
 			<div class="card-columns align-self-stretch">
 				<div class="fixOverlayDiv">
 					<img  class="hover-shadow cursor" src="img/thumbs/007.jpg" onclick="openModal();currentSlide(1)" alt="" />
@@ -411,7 +424,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	<!-- </div> -->
 	<div id="myModal" class="modal">
 		<span class="close cursor" onclick="closeModal()">&times;</span>
 		<div class="modal-content">
@@ -731,8 +744,8 @@
 				<div class="numbertext"></div>
 				<img src="img/main/088.jpg" style="width:100%">
 			</div>	
-			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			<!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a> -->
 		</div>
 	</div>		
 	<script>

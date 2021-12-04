@@ -294,6 +294,9 @@ img.hover-shadow {
 .fixOverlayDiv img {
   /*padding-top: 185px;*/
 }
+.card-columns {
+  margin-top: 50px;
+}
 
 .img-responsive img{
    transition:transform 0.25s ease;

@@ -1163,11 +1163,11 @@ pre code {
         flex: 0 0 91.666667%;
         max-width: 91.666667%
     }
-    .col-md-12 {
+    /*.col-md-12 {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%
-    }
+    }*/
     .order-md-first {
         -ms-flex-order: -1;
         order: -1
@@ -4812,6 +4812,8 @@ input[type=submit].btn-block {
 
 .card-columns .card {
     margin-bottom: .75rem
+
+
 }
 
 @media (min-width:576px) {
@@ -4824,6 +4826,7 @@ input[type=submit].btn-block {
         column-gap: 1.25rem;
         orphans: 1;
         widows: 1
+
     }
     .card-columns .card {
         display: inline-block;

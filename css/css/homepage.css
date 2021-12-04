@@ -210,10 +210,10 @@ a {
   cursor: pointer;
 }
 
-.mySlides {
+/*.mySlides {
   display: none;
 }
-
+*/
 .cursor {
   cursor: pointer;
 }
@@ -288,13 +288,11 @@ img.hover-shadow {
 
 .fixOverlayDiv {
     position: relative;
-    
-    /*width: 100%;*/
     padding-top: 10px;
     margin-right:-8px !important;
 }
 .fixOverlayDiv img {
-  transition:transform 0.25s ease;
+  /*padding-top: 185px;*/
 }
 
 .img-responsive img{

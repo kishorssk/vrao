@@ -75,13 +75,13 @@
 		}
 
 		.mySlides {
-			display: none;
-			width: 40%;
-			height: auto;
+			display: block;
+			width: 400px;
+			height: 50%;
 			align-content: center;
 			position: absolute;
-			top : 5%;
-			bottom: 20%;
+			/*top : 10%;
+			bottom: 10%;*/
 		}
     	.cursor {
     		cursor: pointer;
@@ -178,14 +178,12 @@
 			<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900" rel="stylesheet"> -->
 		<link rel="stylesheet" href="css/linearicons.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/magnific-popup.css">
 		<link rel="stylesheet" href="css/nice-select.css">
 		<link rel="stylesheet" href="css/animate.min.css">
 		<link rel="stylesheet" href="css/owl.carousel.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/navbar.css">
-		<link rel="stylesheet" href="css/homepage.css">
 
 		<link rel="stylesheet" href="css/css/viewer.css?v=1.2">
 		<!-- <link rel="stylesheet" href="css/css/navbar.css?v=1.2"> -->
@@ -428,17 +426,17 @@
 	<div id="myModal" class="modal">
 		<span class="close cursor" onclick="closeModal()">&times;</span>
 		<div class="modal-content">
-			<div class="mySlides">
+			<div class="mySlides" >
 				<div class="numbertext"></div>
-				<img src="img/main/007.jpg" style="width:100%">
+				<img src="img/main/007.jpg" style="width:85%">
 			</div>
 			<div class="mySlides">
 				<div class="numbertext"></div>
-				<img src="img/main/008.jpg"  style="width:100%">
+				<img src="img/main/008.jpg"  style="width:95%">
 			</div>
 			<div class="mySlides">
 				<div class="numbertext"></div>
-				<img src="img/main/010.jpg" style="width:100%">
+				<img src="img/main/010.jpg" style="width:95%">
 			</div>
 			<div class="mySlides">
 				<div class="numbertext"></div>
@@ -706,7 +704,7 @@
 
 			<div class="mySlides">
 				<div class="numbertext"></div>
-				<img src="img/main/079.jpg" style="width:100%">
+				<img src="img/main/079.jpg" style="width:500%">
 			</div>
 			<div class="mySlides">
 				<div class="numbertext"></div>
@@ -741,13 +739,169 @@
 				<img src="img/main/087.jpg" style="width:100%">
 			</div>
 			<div class="mySlides">
-				<div class="numbertext"></div>
-				<img src="img/main/088.jpg" style="width:100%">
+				<!-- <div class="numbertext"></div> -->
+				<img src="img/main/088.jpg" style="width:120%">
 			</div>	
 			<!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 			<a class="next" onclick="plusSlides(1)">&#10095;</a> -->
 		</div>
-	</div>		
+	</div>	
+
+
+<!-- <div class="container gallery">
+	<div class="row justify-content-center" id="viewimages">
+
+		<div class="col-md-12 text-center bio"><h2>ಚಿತ್ರಗಳು</h2></div>
+		<div class="card-columns align-self-stretch">
+
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="http://localhost/vrao/public/images/gallery/main/001.jpg" src="http://localhost/vrao/public/images/gallery/thumbs/001.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/002.jpg" src="public/images/gallery/thumbs/002.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/003.jpg" src="public/images/gallery/thumbs/003.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/004.jpg" src="public/images/gallery/thumbs/004.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/005.jpg" src="public/images/gallery/thumbs/005.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/006.jpg" src="public/images/gallery/thumbs/006.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/007.jpg" src="public/images/gallery/thumbs/007.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/008.jpg" src="public/images/gallery/thumbs/008.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/009.jpg" src="public/images/gallery/thumbs/009.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/010.jpg" src="public/images/gallery/thumbs/010.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/011.jpg" src="public/images/gallery/thumbs/011.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/012.jpg" src="public/images/gallery/thumbs/012.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/013.jpg" src="public/images/gallery/thumbs/013.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/014.jpg" src="public/images/gallery/thumbs/014.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/015.jpg" src="public/images/gallery/thumbs/015.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/016.jpg" src="public/images/gallery/thumbs/016.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/017.jpg" src="public/images/gallery/thumbs/017.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/018.jpg" src="public/images/gallery/thumbs/018.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/019.jpg" src="public/images/gallery/thumbs/019.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/020.jpg" src="public/images/gallery/thumbs/020.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/021.jpg" src="public/images/gallery/thumbs/021.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/022.jpg" src="public/images/gallery/thumbs/022.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/023.jpg" src="public/images/gallery/thumbs/023.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/024.jpg" src="public/images/gallery/thumbs/024.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/025.jpg" src="public/images/gallery/thumbs/025.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/026.jpg" src="public/images/gallery/thumbs/026.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/027.jpg" src="public/images/gallery/thumbs/027.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/028.jpg" src="public/images/gallery/thumbs/028.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/029.jpg" src="public/images/gallery/thumbs/029.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/030.jpg" src="public/images/gallery/thumbs/030.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/031.jpg" src="public/images/gallery/thumbs/031.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/032.jpg" src="public/images/gallery/thumbs/032.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/033.jpg" src="public/images/gallery/thumbs/033.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/034.jpg" src="public/images/gallery/thumbs/034.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/035.jpg" src="public/images/gallery/thumbs/035.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/036.jpg" src="public/images/gallery/thumbs/036.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/037.jpg" src="public/images/gallery/thumbs/037.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/038.jpg" src="public/images/gallery/thumbs/038.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/039.jpg" src="public/images/gallery/thumbs/039.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/040.jpg" src="public/images/gallery/thumbs/040.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/041.jpg" src="public/images/gallery/thumbs/041.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/042.jpg" src="public/images/gallery/thumbs/042.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/083.jpg" src="public/images/gallery/thumbs/083.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/084.jpg" src="public/images/gallery/thumbs/084.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/085.jpg" src="public/images/gallery/thumbs/085.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/086.jpg" src="public/images/gallery/thumbs/086.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/087.jpg" src="public/images/gallery/thumbs/087.jpg" alt="" />
+			</div>
+			<div class="fixOverlayDiv">
+				<img class="img-responsive" data-original="public/images/gallery/main/088.jpg" src="public/images/gallery/thumbs/088.jpg" alt="" />
+			</div>
+		</div>
+	</div>
+</div> -->
+
 	<script>
 		function openModal() {
 			document.getElementById("myModal").style.display = "block";
@@ -803,7 +957,7 @@
 </body>
 		<script src="js/vendor/jquery-2.2.4.min.js" type="df7a91b3a0010efddfd818dc-text/javascript"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" type="df7a91b3a0010efddfd818dc-text/javascript"></script>
-		<script src="js/vendor/bootstrap.min.js" type="df7a91b3a0010efddfd818dc-text/javascript"></script>
+		<!-- <script src="js/vendor/bootstrap.min.js" type="df7a91b3a0010efddfd818dc-text/javascript"></script> -->
 		<script type="df7a91b3a0010efddfd818dc-text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
 		<script src="js/easing.min.js" type="df7a91b3a0010efddfd818dc-text/javascript"></script>
 		<script src="js/hoverIntent.js" type="df7a91b3a0010efddfd818dc-text/javascript"></script>

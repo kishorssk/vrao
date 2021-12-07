@@ -704,7 +704,7 @@
 
 			<div class="mySlides">
 				<div class="numbertext"></div>
-				<img src="img/main/079.jpg" style="width:500%">
+				<img src="img/main/079.jpg" style="width:100%">
 			</div>
 			<div class="mySlides">
 				<div class="numbertext"></div>

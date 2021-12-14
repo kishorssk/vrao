@@ -2680,8 +2680,8 @@ body.mobile-nav-active #mobile-nav-toggle {
       .about-content .box a:hover {
         color: #e45447; }
 
-.portfolio_details_inner .row {
-  margin-bottom: 65px; }
+/*.portfolio_details_inner .row {
+  margin-bottom: 65px; }*/
   @media (max-width: 480px) {
     .portfolio_details_inner .row {
       margin-bottom: 30px; } }

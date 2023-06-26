@@ -20,7 +20,70 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/navbar.css">
 	<link rel="stylesheet" href="css/homepage.css">
+	 <link href="dflip/css/dflip.min.css" rel="stylesheet" type="text/css">
 </head>
+<style type="text/css">
+  .left{
+    float: left;
+  }
+  .df-ui-prev{
+    /*background-color: red;*/
+    value: "hloo";
+  }
+  .df-ui-prev:before {
+  content: "<<";
+  color: red;
+}
+.df-ui-next:before{
+  content: ">>";
+  color: red;
+}
+.df-ui-thumbnail:before{
+  content: "Toggle";
+  color: red;
+}
+ .df-ui-zoomin:before{
+  content: "+";
+  color: red;
+ }
+ .df-ui-zoomout:before{
+  content: "-";
+  color: red;
+ }
+ .df-ui-fullscreen:before{
+  content: "[ ]";
+  color: red;
+ }
+ .df-ui-share:before{
+  content: "Share";
+  color: red;
+ }
+ .df-ui-more:before{
+  content: "^";
+  color: red;
+ }
+ .df-ui-download{
+  color: red;
+ }
+ .df-ui-pagemode{
+  color: red;
+ }
+ .df-ui-start{
+  color:red;
+ }
+ .df-ui-end{
+  color:red;
+ }
+ .df-ui-sound{
+  color: red;
+}
+._df_thumb{
+  margin: 40px;
+}
+.title{
+  float: right;
+}
+</style>
 <body>
 	<header id="header">
 		<div class="container main-menu">
@@ -34,7 +97,7 @@
 					<ul class="nav-menu">
 						<li class="active"><a class="active" href="index.html">ಮುಖಪುಟ</a></li>
 						<li><a href="about.html">ಶರ್ಮರ ಬಗ್ಗೆ</a></li>
-						<li><a href="portfolio.html">ಪುಸ್ತಕಗಳು</a></li>
+						<li><a href="basic-example.html">ಪುಸ್ತಕಗಳು</a></li>
 						<!-- <li><a href="Photos.php">ಚಿತ್ರಗಳು</a></li> -->
 					</ul>
 				</nav>
@@ -52,10 +115,12 @@
 						ಕರ್ನಾಟಕ ಸರ್ಕಾರ <span class="designer">ರಾಜ್ಯ ಪ್ರಶಸ್ತಿ</span> ಪುರಸ್ಕೃತರು
 					</div>
 				</div>
+
 				<div class="banner-img col-lg-6 col-md-6 col-sm-12">
-					<img class="img-fluid" src="img/banner-img.png" alt="">
+					<img src="img/banner-img.png" alt="">
 				</div>
 			</div>
+
 		</div>
 	</section>
 
@@ -72,7 +137,7 @@
 					<div class="mb-50 wow fadeIn" data-wow-duration=".8s">
 						<p>ವೇ|ಬ್ರಂ|ಶ್ರೀ ಬಿ. ವೆಂಕಟರಾಮಶರ್ಮರವರು ಮೈಸೂರು ಕಂಡಂತಹ ಅತ್ಯಂತ ಜನಪ್ರಿಯ ಉಪನ್ಯಾಸಕರು ಮತ್ತು ಗ್ರಂಥಕರ್ತೃರು. ೬೦ ವರ್ಷಗಳ ಕಾಲ ಮೈಸೂರಿನ ವಿವಿಧ ದೇವಸ್ಥಾನಗಳಲ್ಲಿ, ಸಂಘ - ಸಂಸ್ಥೆಗಳಲ್ಲಿ ಅಧ್ಯಾತ್ಮಿಕ ವಿಚಾರಧಾರೆಯನ್ನು ಅತ್ಯಂತ ಸರಳ-ಸುಂದರ ಭಾಷೆಯಲ್ಲಿ ಶ್ರೋತೃಗಳಿಗೆ ಮುಟ್ಟಿಸಿದಂತಹ ಧೀಮಂತರು. ಈ ಸರಳತೆ ಸ್ವಾನುಭವದ ಫಲವಾಗಿದ್ದು, ಅತ್ಯಂತ ಕ್ಲಿಷ್ಟ ವಿಷ್ಯಗಳನ್ನೂ ಮನದಟ್ಟಾಗುವಂತಹ ರೀತಿಯಲ್ಲಿ ವಿವರಿಸುತ್ತಿದ್ದರು.
 						</p>
-						<p>ಶ್ರೋತ್ರೀಯರ ವಂಶದಲ್ಲಿ ಹುಟ್ಟಿ, ವೇ। ಬ್ರಂ। ಶ್ರೀ ವಿಠಲ ಶಾಸ್ತ್ರಿಗಳಿಂದ (ಪ.ಪೂ. ಶ್ರೀ ಜ್ಞಾನಾನಂದೇಂದ್ರ ಸರಸ್ವತಿಗಳು)ಶಂಕರ ಭಾಷ್ಯದ ಪಾಠದ ಭಾಗ್ಯವನ್ನು ಪಡೆದುಕೊಂಡರು. ಹೃಶಿಕೇಶದ ದಿವ್ಯ ಜೀವನ ಸಂಘದ ಸ್ಥಾಪಕರಾದ ಪ. ಪೂ. ಸ್ವಾಮಿ ಶಿವಾನಂದರ ಗ್ರಂಥಗಳಿಂದ ಸ್ಫೂರ್ತಿ ಪಡೆದು, ಕರ್ನಾಟಕದಲ್ಲಿ ದಿವ್ಯ ಜೀವನ ಸಂಘವನ್ನು ಬೆಳೆಸಿದರು. ಮೈಸೂರಿನ ದಿವ್ಯ ಜೀವನ ಮಹಿಳಾ ಸಂಘ ಶಿವಾನಂದ ಜ್ಞಾನಾಲಯ ಇವರ ಶ್ರಮ ಮತ್ತು ಉದಾತ್ತತೆಯ ಸ್ಮಾರಕವಾಗಿದೆ.
+						<p>ಶ್ರೋತ್ರೀಯರ ವಂಶದಲ್ಲಿ ಹುಟ್ಟಿ, ವೇ। ಬ್ರಂ। ಶ್ರೀ ವಿಠಲ ಶಾಸ್ತ್ರಿಗಳಿಂದ(ಪ.ಪೂ. ಶ್ರೀ ಜ್ಞಾನಾನಂದೇಂದ್ರ ಸರಸ್ವತಿಗಳು)ಶಂಕರ ಭಾಷ್ಯದ ಪಾಠದ ಭಾಗ್ಯವನ್ನು ಪಡೆದುಕೊಂಡರು. ಹೃಶಿಕೇಶದ ದಿವ್ಯ ಜೀವನ ಸಂಘದ ಸ್ಥಾಪಕರಾದ ಪ. ಪೂ. ಸ್ವಾಮಿ ಶಿವಾನಂದರ ಗ್ರಂಥಗಳಿಂದ ಸ್ಫೂರ್ತಿ ಪಡೆದು, ಕರ್ನಾಟಕದಲ್ಲಿ ದಿವ್ಯ ಜೀವನ ಸಂಘವನ್ನು ಬೆಳೆಸಿದರು. ಮೈಸೂರಿನ ದಿವ್ಯ ಜೀವನ ಮಹಿಳಾ ಸಂಘ ಶಿವಾನಂದ ಜ್ಞಾನಾಲಯ ಇವರ ಶ್ರಮ ಮತ್ತು ಉದಾತ್ತತೆಯ ಸ್ಮಾರಕವಾಗಿದೆ.
 						</p>
 						<p>ಆಚಾರ್ಯ ಶಂಕರರ ಸಂದೇಶವನ್ನು ಮನೆ-ಮನೆಗಳಿಗೆ ಮುಟ್ಟಿಸಿದ ಶ್ರೀ ಶರ್ಮರವರು, 40ಕ್ಕೂ ಹೆಚ್ಚು ಗ್ರಂಥಗಳನ್ನು ರಚಿಸಿದ್ದಾರೆ. ಅನೇಕ ಪುಸ್ತಕಗಳನ್ನು ಭಾಷಾಂತರಿಸಿದ್ದಾರೆ. ಇವರ ಅತ್ಯಮೂಲ್ಯ ಕೃತಿಗಳಲ್ಲಿ ಒಂದಾದ ಜಗದ್ಗುರು ಶ್ರೀ ಶಂಕರಾಚಾರ್ಯ ಪುಸ್ತಕಕ್ಕೆ ಕರ್ನಾಟಕ ಸರ್ಕಾರ 1958ರಲ್ಲಿ ಪ್ರಶಸ್ತಿಯನ್ನು ನೀಡಿ ಗೌರವಿಸಿದೆ.
 						</p>
@@ -99,208 +164,311 @@
 				<div class="row booksCollection">
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=LhdOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/001.jpg" />
-							<p class="title">ಪರವಾಸುದೇವ</p>
+							<img  src="img/work/001.jpg" title="Get E_Book From Google Play Book"/><br /><br />
+							<p >ಪರವಾಸುದೇವ</p>
+							<a class="_df_custom" href="#" source="examples/example-assets/books/001.pdf"> 
+								View PDF
+							</a>
 						</a>
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=N8VOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/002.jpg" />
-							<p class="title">ಶ್ರೀಶಂಕರಾಚಾರ್ಯ</p>
+							<img  src="img/work/002.jpg" title="Get E_Book From Google Play Book"/><br /><br />
+							<p >ಶ್ರೀಶಂಕರಾಚಾರ್ಯ</p>
+							<a class="_df_custom" href="#" source="examples/example-assets/books/002.pdf"> 
+								View PDF
+							</a>
 						<!-- </a> -->
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=GxhOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/003.jpg" />
-							<p class="title">ಯಾಜ್ಞಿಕೀ  ಉಪನಿಷತ್ತು</p>
-						</a>
+              <img  src="img/work/003.jpg" title="Get E_Book From Google Play Book"/><br /><br />
+              <p >ಯಾಜ್ಞಿಕೀ  ಉಪನಿಷತ್ತು</p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/003.pdf"> 
+                View PDF
+           </a>
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=NxhOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/004.jpg" />
-							<p class="title">ಶ್ರೀಗೌರೀ-ಶಂಕರ</p>
-						</a>
+              <img  src="img/work/004.jpg" title="Get E_Book From Google Play Book"/><br /><br />
+              <p >ಶ್ರೀಗೌರೀ-ಶಂಕರ</p>
+              <a class="_df_custom" href="#" source="examples/example-assets/books/004.pdf"> 
+                View PDF
+              </a>
+            </a>
 					</div>
 					<div class="col-md-2 p-1">
-						<a target="_blank" href="https://play.google.com/store/books/details?id=URhOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/005.jpg" />
-							<p class="title">ಶ್ರೀಮತಿ ಚೂಡಾಲ</p>
-						</a>
+						 <a target="_blank" href="https://play.google.com/store/books/details?id=URhOEAAAQBAJ">
+              <img  src="img/work/005.jpg" title="Get E_Book From Google Play Book"/><br /><br />
+              <p >ಶ್ರೀಮತಿ ಚೂಡಾಲ</p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/005.pdf"> 
+                View PDF
+           </a>
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=YRhOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/006.jpg" />
-							<p class="title">ದೇವರು</p>
-						</a>
+              <img  src="img/work/006.jpg" title="Get E_Book From Google Play Book"/><br /><br />
+              <p >ದೇವರು</p>
+              <a class="_df_custom" href="#" source="examples/example-assets/books/006.pdf"> 
+                View PDF
+              </a>
+            </a><br /><br /><br />
 					</div>
 					<div class="col-md-2 p-1">
-						<a target="_blank" href="https://play.google.com/store/books/details?id=BRlOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/007.jpg" />
-							<p class="title">ಶಿವ ಶ್ರೀ</p>
-						</a>
+						 <a target="_blank" href="https://play.google.com/store/books/details?id=BRlOEAAAQBAJ">
+              <img  src="img/work/007.jpg" title="Get E_Book From Google Play Book"/><br /><br />
+              <p >ಶಿವ ಶ್ರೀ</p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/007.pdf"> 
+                View PDF
+           </a>
 					</div>
 					<div class="col-md-2 p-1">
-						<a target="_blank" href="https://play.google.com/store/books/details?id=uBpOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/008.jpg" />
-							<p class="title">ಸದೋದಿತ ಪರಬ್ರಹ್ಮ</p>
-						</a>
+					<a target="_blank" href="https://play.google.com/store/books/details?id=uBpOEAAAQBAJ">
+              <img  src="img/work/008.jpg" title="Get E_Book From Google Play Book"/><br /><br />
+              <p>ಸದೋದಿತ ಪರಬ್ರಹ್ಮ</p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/008.pdf"> 
+                View PDF
+           </a>
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=SiJOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/009.jpg" />
-							<p class="title">ಚಿದಾನಂದ ಚಿತ್ ಪ್ರಭ</p>
-						</a>
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/009.jpg" /><br /><br />
+              <p >ಚಿದಾನಂದ ಚಿತ್ ಪ್ರಭ</p>
+              <a class="_df_custom" href="#" source="examples/example-assets/books/009.pdf"> 
+                View PDF
+              </a>
+            </a>
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=RiJOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/010.jpg" />
-							<p class="title">ದೀಪಧಾರಿ</p>
-						</a>
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/010.jpg" />
+          <br /><br />
+              <p >ದೀಪಧಾರಿ</p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/010.pdf"> 
+                View PDF
+           </a>
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=LklOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/011.jpg" />
-							<p class="title">ಯೋಗ ವೇದಾಂತ ದರ್ಶನ</p>
-						</a>
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/011.jpg" /><br /><br />
+              <p >ಯೋಗ ವೇದಾಂತ ದರ್ಶನ</p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/011.pdf"> 
+                View PDF
+           </a>
 					</div>
 					<div class="col-md-2 p-1">
-						<a target="_blank" href="https://play.google.com/store/books/details?id=tCVOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/013.jpg" />
-							<p class="title">ದಿವ್ಯಜೀವನ ದೀಪ್ತಮೂರ್ತಿ</p>
-						</a>
+						 <a target="_blank" href="https://play.google.com/store/books/details?id=tCVOEAAAQBAJ">
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/013.jpg" /><br /><br />
+              <p >ದಿವ್ಯಜೀವನ ದೀಪ್ತಮೂರ್ತಿ</p>
+              <a class="_df_custom" href="#" source="examples/example-assets/books/013.pdf"> 
+                View PDF
+              </a>
+            </a><br /><br /><br />
 					</div>
 					<div class="col-md-2 p-1">
-						<a target="_blank" href="https://play.google.com/store/books/details?id=4SVOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/014.jpg" />
-							<p class="title">ಪುರುಷೋತ್ತಮ</p>
-						</a>
+						 <a target="_blank" href="https://play.google.com/store/books/details?id=4SVOEAAAQBAJ">
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/014.jpg" /><br /><br />
+              <p >ಪುರುಷೋತ್ತಮ</p><br />
+          <a class="_df_custom" href="#" source="examples/example-assets/books/014.pdf"> 
+                View PDF
+           </a>
 					</div>
 					<div class="col-md-2 p-1">
-						<a target="_blank" href="https://play.google.com/store/books/details?id=-SVOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/015.jpg" />
-							<p class="title">ಶಾಂತಿಮತೀ</p>
-						</a>
+						 <a target="_blank" href="https://play.google.com/store/books/details?id=-SVOEAAAQBAJ">
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/015.jpg" /><br /><br />
+              <p >ಶಾಂತಿಮತೀ</p><br />
+              <a class="_df_custom" href="#" source="examples/example-assets/books/015.pdf"> 
+                View PDF
+              </a>
+            </a>
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=FSZOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/016.jpg" />
-							<p class="title">ಶ್ರೀ ವೆಂಕಟೇಶ ವೈಭವಂ</p>
-						</a>
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/016.jpg" /><br /><br />
+              <p >ಶ್ರೀ ವೆಂಕಟೇಶ ವೈಭವಂ</p><br />
+          <a target="_blank" class="_df_custom" href="#" source="examples/example-assets/books/016.pdf"> 
+                View PDF
+           </a>
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=ISZOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/017.jpg" />
-							<p class="title">ಗಾಯತ್ರೀ ಉಪಾಸನೆ ಮತ್ತು ಮಂತ್ರಾರ್ಥ </p>
-						</a>
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/017.jpg" /><br /><br />
+              <p >ಗಾಯತ್ರೀ ಉಪಾಸನೆ ಮತ್ತು ಮಂತ್ರಾರ್ಥ </p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/017.pdf"> 
+                View PDF
+           </a>
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=JyZOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/018.jpg" />
-							<p class="title">ಶ್ರೀ ಅಂಜನೇಯ ವೈಭವ</p>
-						</a>
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/018.jpg" /><br /><br />
+              <p >ಶ್ರೀ ಅಂಜನೇಯ ವೈಭವ</p><br />
+          <a class="_df_custom" href="#" source="examples/example-assets/books/018.pdf"> 
+                View PDF
+           </a>
 					</div>
 					<div class="col-md-2 p-1">
-						<a target="_blank" href="https://play.google.com/store/books/details?id=YyZOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/019.jpg" />
-							<p class="title">ತತ್ತ್ವಮಯೀ</p>
-						</a>
+						 <a target="_blank" href="https://play.google.com/store/books/details?id=YyZOEAAAQBAJ">
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/019.jpg" /><br /><br />
+              <p >ತತ್ತ್ವಮಯೀ</p><br /> 
+          <a class="_df_custom" href="#" source="examples/example-assets/books/019.pdf"> 
+                View PDF
+           </a><br /><br /><br />
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=dSZOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/020.jpg" />
-							<p class="title">ಅಧ್ಯಾತ್ಮ ವಿದ್ಯಾ</p>
-						</a>
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/020.jpg" /><br /><br />
+              <p >ಅಧ್ಯಾತ್ಮ ವಿದ್ಯಾ</p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/020.pdf"> 
+                View PDF
+           </a>
 					</div>
 					<div class="col-md-2 p-1">
-						<a target="_blank" href="https://play.google.com/store/books/details?id=gyZOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/021.jpg" />
-							<p class="title">ಪೂಜಾರ್ಹವಾದ ಪುಷ್ಪಗಳು</p>
-						</a>
+						 <a target="_blank" href="https://play.google.com/store/books/details?id=gyZOEAAAQBAJ">
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/021.jpg" /><br /><br />
+              <p >ಪೂಜಾರ್ಹವಾದ ಪುಷ್ಪಗಳು</p>
+              <a class="_df_custom" href="#" source="examples/example-assets/books/021.pdf"> 
+                View PDF
+              </a>
+            </a>
 					</div>
 					<div class="col-md-2 p-1">
-						<a target="_blank" href="https://play.google.com/store/books/details?id=5jtOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/022.jpg" />
-							<p class="title">ನಗೆಬೆಳಕಿನ ನಂದಾದೀಪ</p>
-						</a>
+						 <a target="_blank" href="https://play.google.com/store/books/details?id=5jtOEAAAQBAJ">
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/022.jpg" /><br /><br />
+              <p >ನಗೆಬೆಳಕಿನ ನಂದಾದೀಪ</p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/022.pdf"> 
+                View PDF
+           </a>
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=7DtOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/023.jpg" />
-							<p class="title">ಆನಂದ ಸೌದಾಮನೀ</p>
-						</a>
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/023.jpg" /><br /><br />
+              <p >ಆನಂದ ಸೌದಾಮನೀ</p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/023.pdf"> 
+                View PDF
+           </a><br /><br /><br />
 					</div>
 					<div class="col-md-2 p-1">
-						<a target="_blank" href="https://play.google.com/store/books/details?id=CDxOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/025.jpg" />
-							<p class="title">ಭಕ್ತಿ ಸಂಕೀರ್ತನೆ</p>
-						</a>
+						 <a target="_blank" href="https://play.google.com/store/books/details?id=CDxOEAAAQBAJ">
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/025.jpg" /><br /><br />
+              <p >ಭಕ್ತಿ ಸಂಕೀರ್ತನೆ</p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/025.pdf"> 
+                View PDF
+           </a>
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=RDxOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/026.jpg" />
-							<p class="title">ಶ್ರೀ ಸ್ಕಂದ ಹೃದಯ</p>
-						</a>
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/026.jpg" /><br /><br />
+              <p >ಶ್ರೀ ಸ್ಕಂದ ಹೃದಯ</p>
+              <a class="_df_custom" href="#" source="examples/example-assets/books/026.pdf"> 
+                View PDF
+              </a><br /><br /><br />
+            </a>
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=SDxOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/027.jpg" />
-							<p class="title">ಸ್ವರಯೋಗ ಸಾಧನ</p>
-						</a>
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/027.jpg" /><br /><br />
+              <p >ಸ್ವರಯೋಗ ಸಾಧನ</p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/027.pdf"> 
+                View PDF
+           </a>
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=UjxOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/028.jpg" />
-							<p class="title">ಶ್ರೀ ದತ್ತ ದಿವ್ಯದರ್ಶನ</p>
-						</a>
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/028.jpg" /><br /><br />
+              <p >ಶ್ರೀ ದತ್ತ ದಿವ್ಯದರ್ಶನ</p>
+              <a class="_df_custom" href="#" source="examples/example-assets/books/028.pdf"> 
+                View PDF
+              </a>
+            </a>
 					</div>
 					<div class="col-md-2 p-1">
-						<a target="_blank" href="https://play.google.com/store/books/details?id=dDxOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/029.jpg" />
-							<p class="title">ಶ್ರೀ ರಾಮತಾರಕ ಮಂತ್ರಮಹಿಮೆ</p>
-						</a>
+						 <a target="_blank" href="https://play.google.com/store/books/details?id=dDxOEAAAQBAJ">
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/029.jpg" /><br /><br />
+              <p >ಶ್ರೀ ರಾಮತಾರಕ ಮಂತ್ರಮಹಿಮೆ</p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/029.pdf"> 
+                View PDF
+           </a>
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=jjxOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/030.jpg" />
-							<p class="title">ಶ್ರೀ ರಾಮನಾಮ ರತ್ನಮಾಲಾ</p>
-						</a>
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/030.jpg" /><br /><br />
+              <p >ಶ್ರೀ ರಾಮನಾಮ ರತ್ನಮಾಲಾ</p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/030.pdf"> 
+                View PDF
+           </a><br /><br /><br />
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=njxOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/031.jpg" />
-							<p class="title">ಸತ್ಯಸಾಕ್ಷಾತ್ಕಾರ</p>
-						</a>
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/031.jpg" /><br /><br />
+              <p >ಸತ್ಯಸಾಕ್ಷಾತ್ಕಾರ</p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/031.pdf"> 
+                View PDF
+           </a>
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=8zxOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/032.jpg" />
-							<p class="title">ಶ್ರೀ ವಾಸವೀ</p>
-						</a>
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/032.jpg" /><br /><br />
+              <p >ಶ್ರೀ ವಾಸವೀ</p>
+              <a class="_df_custom" href="#" source="examples/example-assets/books/032.pdf"> 
+                View PDF
+              </a><br /><br /><br />
+            </a>
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=MEhOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/033.jpg" />
-							<p class="title">ಸತ್ಯಲೋಕದ ಧರ್ಮದೀಪ</p>
-						</a>
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/033.jpg" /><br /><br />
+              <p >ಸತ್ಯಲೋಕದ ಧರ್ಮದೀಪ</p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/033.pdf"> 
+                View PDF
+           </a>
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=NEhOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/034.jpg" />
-							<p class="title">ಯೋಗ ವಾಸಿಷ್ಠಸಾರ</p>
-						</a>
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/034.jpg" /><br /><br />
+              <p >ಯೋಗ ವಾಸಿಷ್ಠಸಾರ</p>
+              <a class="_df_custom" href="#" source="examples/example-assets/books/034.pdf"> 
+                View PDF
+              </a>
+            </a>
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=PkhOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/035.jpg" />
-							<p class="title">ಬ್ರಹ್ಮಸೂತ್ರಗಳ ತಿರುಳು</p>
-						</a>
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/035.jpg" /><br /><br />
+              <p >ಬ್ರಹ್ಮಸೂತ್ರಗಳ ತಿರುಳು</p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/035.pdf"> 
+                View PDF
+           </a>
 					</div>
 					<div class="col-md-2 p-1">
 						<a target="_blank" href="https://play.google.com/store/books/details?id=_EhOEAAAQBAJ">
-							<img class="img-fluid img-thumbnail" src="img/work/041.jpg" />
-							<p class="title">ನಾರದ ಸೂತ್ರ ರತ್ನ ಪ್ರಭ</p>
-						</a>
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/041.jpg" /><br /><br />
+              <p >ನಾರದ ಸೂತ್ರ ರತ್ನ ಪ್ರಭ</p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/041.pdf"> 
+                View PDF
+           </a><br /><br /><br />
 					</div>
+
+
+					<div class="col-md-2">
+    <a target="_blank" href="https://play.google.com/store/books/details?id=VLyPEAAAQBAJ">
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/043.jpg" /><br /><br />
+              <p >ಶ್ರೀ ವಿಷ್ಣುಸಹಸ್ರನಾಮ</p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/037.pdf"> 
+                View PDF
+           </a>
+          </div>
+
+      <div class="col-md-2">
+     <a target="_blank" href="https://play.google.com/store/books/details?id=RryPEAAAQBAJ">
+              <img class="img-fluid img-thumbnail" title="Get E_book From Google Play Book" src="img/work/042.jpg" /><br /><br />
+              <p >ಶ್ರೀ ವಿದ್ಯಾ</p>
+          <a class="_df_custom" href="#" source="examples/example-assets/books/036.pdf"> 
+                View PDF
+           </a><br /><br /><br />
+          </div>
+
+
+
 				</div>
 			</div>
 		</div>
@@ -338,6 +506,9 @@
 
 	
 </body>
+<script src="dflip/js/libs/jquery.min.js" type="text/javascript"></script>
+<!-- Flipbook main Js file -->
+<script src="dflip/js/dflip.min.js" type="text/javascript"></script>
 
 <script src="js/vendor/jquery-2.2.4.min.js" type="df7a91b3a0010efddfd818dc-text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" type="df7a91b3a0010efddfd818dc-text/javascript"></script>
